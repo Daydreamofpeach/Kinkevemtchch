@@ -3,6 +3,7 @@ import { ContactUs } from "./Components/ContactUs"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from "./Components/Header"
+import { javascript } from "./Pages/javascript"
 
 
 // const [email, setEmail] = useState('');
@@ -15,7 +16,7 @@ function App() {
   return (
  
     <div className="min-h-screen text-white font-bold  ">
-
+<javascript> <h1> {date}</h1></javascript>
       <main className="container mx-auto px-6 pt-16 flex-1 text-center">
 
         {/* <h2 className="text-2xl md:text-4xl lg:text-4xl uppercase">Welcome to</h2> */}
@@ -25,7 +26,7 @@ function App() {
         <div className="mt-60 text-xl md:mt-80  bg-black  rounded-xl  -p-12 w-24   font-bold uppercase container mx-auto  outline outline-black text-red-500  flex-1 text-center" >
           <p className="" >R18 Event</p>
         </div>
-        <div className="mt-40">
+        <div className="mt-40 ">
 
           <div className="text-lg  px-4 py-2   bg-black text-red-500  w-52    rounded-3xl bg-opacity-100 text-opacity-100 mb-12">
             Sign Up Below for Event Notifcations
@@ -34,9 +35,10 @@ function App() {
         </div>
 
       </main>
-    
+   
 
-        <footer className="flex  flex-row items-right justify-center   bottom-0 sticky bg-red-600 pb-4">
+      <footer className="flex  flex-row items-right justify-center   bottom-0 sticky bg-red-600 pb-4">
+        
           <p className="mb-0 md:mb-0 md:text-xl">Ōtautahi Pride 2023 💜 </p>
           <div className="flex justify-center mx-6 text-white  ">
             <a href="#" className="mx-3 hover:opacity-80 duration-150">About us</a> |
@@ -45,11 +47,7 @@ function App() {
           </div>
      
         </footer>
- 
-        {/* <Router>
-        <Route>
-        </Route>
-      </Router> */}
+
     </div>
 
 
