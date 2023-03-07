@@ -3,7 +3,7 @@ import { ContactUs } from "./Components/ContactUs"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from "./Components/Header"
-import { javascript } from "./Pages/javascript"
+
 
 
 // const [email, setEmail] = useState('');
@@ -16,35 +16,39 @@ function App() {
   return (
  
     <div className="min-h-screen text-white font-bold  ">
-<javascript> <h1> {date}</h1></javascript>
+
       <main className="container mx-auto px-6 pt-16 flex-1 text-center">
 
         {/* <h2 className="text-2xl md:text-4xl lg:text-4xl uppercase">Welcome to</h2> */}
                                                                     
      
  
-        <div className="mt-60 text-xl md:mt-80  bg-black  rounded-xl  -p-12 w-24   font-bold uppercase container mx-auto  outline outline-black text-red-500  flex-1 text-center" >
-          <p className="" >R18 Event</p>
-        </div>
-        <div className="mt-40 ">
+        <div className="mt-16 mb-20  text-xl md:mt-40     rounded-xl   w-24   uppercase  opacity-90 mx-auto    text-white font-black  flex-1 text-center" >
+          <p className="pt-8 " >R18 Event</p>
+        
+          <p className=" " >March 17th</p>
 
-          <div className="text-lg  px-4 py-2   bg-black text-red-500  w-52    rounded-3xl bg-opacity-100 text-opacity-100 mb-12">
+
+        </div>
+        <div className=" object-center  justify-center   ">
+
+          <div className="text-2xl   px-4 py-20   hover:text-black  text-white font-black    text-opacity-100   mt-12  w-80  mx-auto md:w-1/2 ">
             Sign Up Below for Event Notifcations
           </div>
-          <ContactUs className="" />
+          <ContactUs className=" md:p-0  min-h-1/4 " />
         </div>
 
       </main>
    
 
-      <footer className="flex  flex-row items-right justify-center   bottom-0 sticky bg-red-600 pb-4">
+      <footer className="flex  w-full flex-row justify-center   bottom-0  sm mt-8 md:mt-8 absolute text-center text-justify justify-evenly ">
         
           <p className="mb-0 md:mb-0 md:text-xl">Ōtautahi Pride 2023 💜 </p>
-          <div className="flex justify-center mx-6 text-white  ">
+  
             <a href="#" className="mx-3 hover:opacity-80 duration-150">About us</a> |
             <a href="#" className="mx-3 hover:opacity-80 duration-150">Privacy</a> |
             <a href="#" className="mx-3 hover:opacity-80 duration-150">Contact</a>
-          </div>
+        
      
         </footer>
 

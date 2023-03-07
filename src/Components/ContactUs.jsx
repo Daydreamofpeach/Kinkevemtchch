@@ -45,7 +45,7 @@ export const ContactUs = () => {
       {/* <label>Name</label>
       <input type="text" name="user_name" /> */}
       
-      <input className="text-lg placeholder:text-white placeholder:italic py-4 px-20 md:px-10 lg:py-6 lg:px-12 bg-black bg-opacity-40 focus:bg-opacity-60 duration-150 md:rounded-tr-none md:rounded-br-none rounded-full outline-none mt-20 md:mb-0  " type="email" name="user_email" placeholder="Email Address" />
+      <input className="text-lg placeholder:text-white placeholder:italic py-4 px-20 md:px-10 lg:py-6 lg:px-12 bg-black bg-opacity-40 focus:bg-opacity-60 duration-150 md:rounded-tr-none md:rounded-br-none rounded-full outline-none mt-0 md:mb-0  " type="email" name="user_email" placeholder="Email Address" />
       {/* <label>Message</label>
       <textarea name="message" /> */}
       <input type="submit" value="Notify Me" onClick={showToast} className="bg-black md:rounded-tl-none md:rounded-bl-none rounded-full text-2xl py-4 px-6 md:px-10 lg:py-6 lg:px-12 font-bold uppercase cursor-pointer hover:opacity-75 duration-150 0 active:bg-red-700 " />
